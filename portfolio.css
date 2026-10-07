@@ -1,0 +1,105 @@
+body {
+font-family: Arial, sans-serif;
+background-color:  #fff59d;
+color: #333333;
+margin: 0;
+}
+.header{
+background-color: #ffb74d;
+color: #333333;
+padding: 20px 40px;    
+}
+.header a {
+color: #333333;
+text-decoration: none;
+margin-left: 20px;    
+}
+.header {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+.header p {
+margin-right: auto;
+}
+.presentation{
+background: linear-gradient(to bottom, #ffb74d, #fff59d);
+padding: 80px 40px;
+text-align: center;
+}
+.presentation h1{
+font-size: 48px;
+margin-bottom: 10px;
+}
+.presentation a {
+background-color: #222222;
+color:#ffcc80;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 6px;
+}
+.about, .skills, .education, .projects, .contact {
+max-width: 900px;
+margin: 40px auto;
+padding: 0 40px;
+}
+
+h2 {
+border-bottom: 3px solid #222222;
+padding-bottom: 8px;
+}
+.skills ul {
+list-style: none;
+padding: 0;
+}
+
+.skills li {
+display: inline-block;
+background-color:#ffc266;
+padding: 15px 30px;
+margin: 5px;
+border-radius: 6px;
+border: border: none;
+}
+.project {
+display: inline-block;
+width: 200px;
+vertical-align: top;
+background-color: #ffc266;
+padding: 20px;
+margin: 10px;
+border-radius: 6px;
+border:border: none;
+}
+.contact input, .contact textarea {
+display: block;
+width: 400px;padding: 12px;
+margin-bottom: 10px;
+border: border: none;
+border-radius: 6px;
+font-family: Arial, sans-serif;
+}
+.contact textarea {
+height: 120px;
+}
+.contact button {
+background-color:#222222;
+color:white;
+padding: 12px 24px;
+border: none;
+border-radius: 6px;
+}
+.footer {
+background-color: #222222;
+color: #ffcc80;
+text-align: center;
+padding: 20px;
+margin-top: 60px;
+}
+.presentation p {
+margin-bottom: 30px;
+}
+input, textarea {
+  background-color:#ffc266; 
+  border: none;
+}
